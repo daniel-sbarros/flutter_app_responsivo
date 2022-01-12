@@ -2,13 +2,14 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_responsibilidade/responsivilidade_media_query.dart';
+import 'package:flutter_responsibilidade/responsivilidade_orintation.dart';
 import 'package:flutter_responsibilidade/responsivilidade_row_col.dart';
 import 'package:flutter_responsibilidade/responsivilidade_wrap.dart';
 
 void main() {
   runApp(MaterialApp(
     theme: ThemeData(
-      primarySwatch: Colors.blueGrey,
+      primarySwatch: Colors.green,
       // brightness: Brightness.light,
     ),
     title: 'Flutter App Responsivo',
@@ -17,6 +18,7 @@ void main() {
     routes: {
       "/rowcol": (_) => ResponsivilidadeRowCol(),
       "/wrap": (_) => ResponsivilidadeWrap(),
+      "/orientation": (_) => ResponsivilidadeOrintation(),
     },
   ));
 }

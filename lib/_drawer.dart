@@ -25,6 +25,12 @@ Drawer drawer(context) {
             Navigator.of(context).pushNamed("/wrap");
           },
         ),
+        ListTile(
+          title: const Text('Resposivilidade Orientation Builder'),
+          onTap: () {
+            Navigator.of(context).pushNamed("/orientation");
+          },
+        ),
       ],
     ),
   );
