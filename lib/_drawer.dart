@@ -31,6 +31,18 @@ Drawer drawer(context) {
             Navigator.of(context).pushNamed("/orientation");
           },
         ),
+        ListTile(
+          title: const Text('Regras de Layouts'),
+          onTap: () {
+            Navigator.of(context).pushNamed("/regras");
+          },
+        ),
+        ListTile(
+          title: const Text('Loja Virtual'),
+          onTap: () {
+            Navigator.of(context).pushNamed("/loja");
+          },
+        ),
       ],
     ),
   );

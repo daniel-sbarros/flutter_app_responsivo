@@ -26,7 +26,7 @@ class _ResponsivilidadeOrintationState
           //       : Center(child: Text('Paisagem/Landscape')),
           // );
           return GridView.count(
-            crossAxisCount: orientation == Orientation.portrait ? 2 : 4,
+            crossAxisCount: orientation == Orientation.portrait ? 2 : 3,
             children: [
               Container(color: Colors.red),
               Container(color: Colors.green),
