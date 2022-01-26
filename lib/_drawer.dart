@@ -43,6 +43,12 @@ Drawer drawer(context) {
             Navigator.of(context).pushNamed("/loja");
           },
         ),
+        ListTile(
+          title: const Text('Texto Auto-Size'),
+          onTap: () {
+            Navigator.of(context).pushNamed("/texto");
+          },
+        ),
       ],
     ),
   );

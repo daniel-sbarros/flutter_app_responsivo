@@ -23,7 +23,8 @@ class WebAppBar extends StatelessWidget {
         ),
         SizedBox(width: 5),
         SizedBox(
-          width: 100,
+          width: 120,
+          height: 60,
           child: OutlinedButton(
             onPressed: () {},
             child: Text('Cadastrar'),
@@ -35,7 +36,7 @@ class WebAppBar extends StatelessWidget {
         ),
         SizedBox(width: 5),
         SizedBox(
-          width: 100,
+          width: 120,
           child: OutlinedButton(
             onPressed: () {},
             child: Text('Entrar'),
@@ -45,10 +46,10 @@ class WebAppBar extends StatelessWidget {
             ),
           ),
         ),
-        // IconButton(
-        //   onPressed: () {},
-        //   icon: Icon(Icons.more_vert),
-        // ),
+        IconButton(
+          onPressed: () {},
+          icon: Icon(Icons.more_vert),
+        ),
       ],
     );
   }
